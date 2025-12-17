@@ -71,8 +71,8 @@ symbols = [
     Symbol("+", None, ["plus"]),
     Symbol("~", None, ["tilde"]),
     Symbol("_", None, ["down score", "underscore"]),
-    Symbol("(", ["paren", "L paren", "left paren"], None),
-    Symbol(")", ["R paren", "right paren"], None),
+    Symbol("(", ["paren", "L paren", "left paren", "open paren"], None),
+    Symbol(")", ["R paren", "right paren", "close paren"], None),
     Symbol("[", None,["brack", "L brack", "bracket", "L bracket", "left bracket", "square", "L square", "left square",],),
     Symbol("]", None, ["R brack", "R bracket", "right bracket", "R square", "right square"]),
     Symbol("/", ["forward slash"], ["slash"]),
@@ -83,8 +83,8 @@ symbols = [
     Symbol(">", None, ["rangle", "R angle", "right angle", "greater than"]),
     Symbol("^", None, ["caret"]),
     Symbol("|", None, ["pipe"]),
-    Symbol("'", None, ["quote", "apostrophe"]),
-    Symbol('"', None, ["dub quote", "double quote"]),
+    Symbol("'", None, ["single quote", "apostrophe"]),
+    Symbol('"', None, ["quote", "double quote"]),
 ]
 
 # by convention, symbols should include currency symbols

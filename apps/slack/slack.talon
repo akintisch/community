@@ -7,8 +7,9 @@ tag(): user.emoji
 workspace <number>: user.slack_open_workspace(number)
 # Channel
 (slack | lack) [channel] info: user.slack_show_channel_info()
-focus (move | next): key(ctrl-`)
+focus (move | next): user.slack_section_next()
 (section | zone) [next]: user.slack_section_next()
+focus previous: user.slack_selection_previous()
 (section | zone) (previous | last): user.slack_section_previous()
 (slack | lack) (starred [items] | stars): user.slack_open_starred_items()
 (slack | lack) [direct] messages: user.slack_open_direct_messages()
