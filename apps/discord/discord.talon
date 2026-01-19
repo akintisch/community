@@ -8,6 +8,24 @@ tag(): user.emoji
     user.discord_quick_switcher(user.discord_destination, user.text or "")
 switcher: user.discord_quick_switcher("", "")
 
+# Navigation: Custom
+workspace next: 
+    user.messaging_workspace_next()
+workspace prev:
+    user.messaging_workspace_previous()
+channel next:
+    user.messaging_channel_next()
+channel prev: 
+    user.messaging_channel_previous()
+react:
+    key("+")
+go back:
+    key("cmd-[")
+go forward:
+    key("cmd-]")
+shortcuts help:
+    key("cmd-/")
+
 # Navigation: Channels
 [channel] mentions last: user.discord_mentions_last()
 [channel] mentions next: user.discord_mentions_next()

@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: Mac
+-
+user: /Users/akintisch
+desktop: /Users/akintisch/Desktop
+desk: /Users/akintisch/Desktop
+documents: /Users/akintisch/Documents
+docks: /Users/akintisch/Documents
+downloads: /Users/akintisch/Downloads
+music: /Users/akintisch/Music
+pictures: /Users/akintisch/Pictures
+videos: /Users/akintisch/Videos
+talon home: /Users/akintisch/.talon
+talon recordings: /Users/akintisch/.talon/recordings
+talon user: /Users/akintisch/.talon/user
+home: /Users/akintisch
