@@ -16,6 +16,8 @@ An session might go like this for example:
     draft submit              # Type the text in your draft window back into your editor
     # End with the text "This is a sentence without error." in your editor or other textbox
 
+    
+
 Here's a video of me going through the above commands:
 
 ![Video of talon draft window in action](doc/talon-draft-demo.gif)
