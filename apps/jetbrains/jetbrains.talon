@@ -37,7 +37,7 @@ fix (format | formatting): user.idea("action ReformatCode")
 fix imports: user.idea("action OptimizeImports")
 #navigation
 (go declaration | follow): user.idea("action GotoDeclaration")
-go implementation: user.idea("action GotoImplementation")
+go (implementation | imp): user.idea("action GotoImplementation")
 go usage: user.idea("action FindUsages")
 go type: user.idea("action GotoTypeDeclaration")
 go test: user.idea("action GotoTest")
