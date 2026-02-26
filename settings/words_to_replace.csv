@@ -16,6 +16,7 @@ syncer,sinker
 syncing,sinking
 close,clothes
 !,exclamation
+?,question
 queue,cue
 =,equals
 sku,skew
@@ -48,3 +49,6 @@ intellij,intelli
 intellij,intel
 intellij,intelli jay
 hi,ha
+oh no,ono
+error log,analog
+GitHub,at hub
