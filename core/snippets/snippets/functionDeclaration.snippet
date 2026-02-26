@@ -6,7 +6,17 @@ $0.wrapperPhrase: funk
 $0.wrapperScope: statement
 ---
 
-language: c | cpp | csharp | java
+language: java
+
+$2.insertionFormatter: PRIVATE_CAMEL_CASE
+$3.insertionFormatter: PRIVATE_CAMEL_CASE
+-
+$1 $2 $3($4) {
+    $0
+}
+---
+
+language: c | cpp | csharp 
 
 $1.insertionFormatter: PRIVATE_CAMEL_CASE
 -
