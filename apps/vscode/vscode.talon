@@ -22,9 +22,9 @@ bar extensions: user.vscode("workbench.view.extensions")
 bar outline: user.vscode("outline.focus")
 bar run: user.vscode("workbench.view.debug")
 bar search: user.vscode("workbench.view.search")
-bar source: user.vscode("workbench.view.scm")
+bar change: user.vscode("workbench.view.scm")
 bar test: user.vscode("workbench.view.testing.focus")
-bar switch: user.vscode("workbench.action.toggleSidebarVisibility")
+bar toggle: user.vscode("workbench.action.toggleSidebarVisibility")
 
 # Symbol search
 symbol hunt [<user.text>]:
@@ -41,7 +41,7 @@ symbol hunt all [<user.text>]:
 panel control: user.vscode("workbench.panel.repl.view.focus")
 panel output: user.vscode("workbench.panel.output.focus")
 panel problems: user.vscode("workbench.panel.markers.view.focus")
-panel switch: user.vscode("workbench.action.togglePanel")
+panel toggle: user.vscode("workbench.action.togglePanel")
 panel terminal: user.vscode("workbench.action.terminal.focus")
 focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
 
