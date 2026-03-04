@@ -43,11 +43,11 @@ settings():
     user.mouse_enable_pop_click = 1
 
     # If `true`, use a hissing noise to scroll continuously
-    user.mouse_enable_hiss_scroll = false
+    user.mouse_enable_hiss_scroll = true
 
     # How much time a hiss must last for to be considered a hiss rather than
     # part of speech, in ms
-    user.hiss_scroll_debounce_time = 100
+    user.hiss_scroll_debounce_time = 300
 
     # If `true`, hide the continuous scroll/gaze scroll GUI
     user.mouse_hide_mouse_gui = false
@@ -113,7 +113,7 @@ settings():
 # Uncomment below enable pop_twice_to_wake
 # Without this tag noise_trigger_pop is usually associated with pop to click actions
 # Enabling this tag disables other pop to click actions in sleep mode, including pop to click
-# tag(): user.pop_twice_to_wake
+#tag(): user.pop_twice_to_wake
 
 # Uncomment below enable pop_twice_to_repeat
 # Enabling this tag will repeat the last command when two pops are heard within the allotted time window
