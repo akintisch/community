@@ -8,7 +8,6 @@ mail,male
 talon,talent
 hamster,hampster
 intellij,intelligent
-built,build
 v6,vee 6
 b 6,v6
 sync,sink
@@ -26,6 +25,7 @@ key,ki
 ,,kama
 \,,kama
 ,,come a
+\,,come up
 a PR,apr
 jira,gera
 v6,these six
@@ -61,3 +61,5 @@ com,calm
 cache,cash
 closeable,closable
 lol,lull
+done,don
+java,Drava
