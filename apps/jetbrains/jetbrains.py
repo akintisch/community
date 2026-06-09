@@ -83,7 +83,7 @@ def _get_nonce(port: int, file_prefix: str) -> Optional[str]:
 def send_idea_command(cmd: str) -> str:
     active_app = ui.active_app()
     bundle = active_app.bundle or active_app.name
-    port = port_mapping.get(bundle, None)
+    port = port_mapping.get(bundle)
     if not port:
         raise Exception(f"unknown application {bundle}")
     nonce = _get_nonce(port, ".vcidea_") or _get_nonce(port, "vcidea_")
@@ -159,7 +159,6 @@ and app.bundle: com.jetbrains.jbr.java
 
 @mod.action_class
 class Actions:
-
     def idea(commands: str):
         """Send a command to Jetbrains product"""
         command_list = commands.split(",")
@@ -306,7 +305,6 @@ class WinActions:
 
 @ctx.action_class("user")
 class UserActions:
-
     def command_server_directory() -> str:
         return "jetbrains-command-server"
 
