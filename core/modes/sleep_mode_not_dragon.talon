@@ -15,6 +15,3 @@ not tag: user.deep_sleep
 
 ^talon wake [<phrase>]$:
     speech.enable()
-
-^wake [<phrase>]$:
-    speech.enable()
