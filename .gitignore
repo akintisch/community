@@ -15,3 +15,7 @@ __pycache__
 .\#*
 # Vim (from https://github.com/github/gitignore/blob/main/Global/Vim.gitignore)
 [._]*.swp
+# oh-my-claudecode tool-generated state
+.omc/
+# machine-specific system paths lists
+core/system_paths-*.talon-list
